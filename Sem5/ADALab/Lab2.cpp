@@ -62,27 +62,24 @@ int main() {
     freopen("Lab2_output.txt","w",stdout);
     #endif
 
-
     const int N = 10000;
 
     for ( int i = 1 ; i <= 5 ; ++i ) {
 
         const int n = N*i;
-
-        cout << "n = " << n << endl ;
-
         int best[n], worst[n], average[n];
+        clock_t start,end ; 
+        start = clock() ;
+        cout << "\nn = " << n << endl ;
+
+        // ----------------------------------------------------------------
+
+        // 1. Merge Sort
+        cout << "\n1. Merge Sort\n" ;
 
         for ( int i = 0 ; i < n ; ++i ) {
             best[i] = i+1, worst[i] = n-i, average[i] = rand()%n+1 ;
         }
-        
-        // Merge Sort
-
-        cout << "\n\nMergeSort\n" ;
-
-        clock_t start,end ; 
-        start = clock() ;
 
         // Best case 
         start = clock() ;
@@ -102,10 +99,16 @@ int main() {
         end = clock() ;
         printf("Time for Worst Case:   %.8f secs\n", (double(end - start)/double(CLOCKS_PER_SEC))) ; 
 
+        // ----------------------------------------------------------------
 
-        // Quick Sort
+        // 2. Quick Sort
+        cout << "\n2. Quick Sort\n" ;
 
-        cout << "\n\nQuickSort\n" ;
+        for ( int i = 0 ; i < n ; ++i ) {
+            best[i] = i+1, worst[i] = n-i, average[i] = rand()%n+1 ;
+        }
+        start = clock() ;
+
         // Best case 
         start = clock() ;
         quickSort(best,0,n-1) ;
@@ -116,13 +119,13 @@ int main() {
         start = clock() ;
         quickSort(average,0,n-1) ;
         end = clock() ;
-        printf("Time for Worst Case:   %.8f secs\n", (double(end - start)/double(CLOCKS_PER_SEC))) ; 
+        printf("Time for Average Case: %.8f secs\n", (double(end - start)/double(CLOCKS_PER_SEC))) ; 
 
         // worst case 
         start = clock() ;
         quickSort(worst,0,n-1) ;
         end = clock() ;
-        printf("Time for Average Case: %.8f secs\n", (double(end - start)/double(CLOCKS_PER_SEC))) ; 
+        printf("Time for Worst Case:   %.8f secs\n", (double(end - start)/double(CLOCKS_PER_SEC))) ; 
 
         cout << "----------------------------------------------------------------" << endl;
 
