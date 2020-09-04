@@ -1,0 +1,70 @@
+n = 10000
+
+
+MergeSort
+Time for Best Case:    0.00000200 secs
+Time for Average Case: 0.00000000 secs
+Time for Worst Case:   0.00000200 secs
+
+
+QuickSort
+Time for Best Case:    0.00190600 secs
+Time for Worst Case:   0.00268200 secs
+Time for Average Case: 0.00232500 secs
+----------------------------------------------------------------
+n = 20000
+
+
+MergeSort
+Time for Best Case:    0.00000100 secs
+Time for Average Case: 0.00000100 secs
+Time for Worst Case:   0.00000200 secs
+
+
+QuickSort
+Time for Best Case:    0.00374100 secs
+Time for Worst Case:   0.00558600 secs
+Time for Average Case: 0.00455800 secs
+----------------------------------------------------------------
+n = 30000
+
+
+MergeSort
+Time for Best Case:    0.00000100 secs
+Time for Average Case: 0.00000000 secs
+Time for Worst Case:   0.00000100 secs
+
+
+QuickSort
+Time for Best Case:    0.00571400 secs
+Time for Worst Case:   0.00904600 secs
+Time for Average Case: 0.00711900 secs
+----------------------------------------------------------------
+n = 40000
+
+
+MergeSort
+Time for Best Case:    0.00000000 secs
+Time for Average Case: 0.00000100 secs
+Time for Worst Case:   0.00000000 secs
+
+
+QuickSort
+Time for Best Case:    0.00774700 secs
+Time for Worst Case:   0.01225600 secs
+Time for Average Case: 0.00993200 secs
+----------------------------------------------------------------
+n = 50000
+
+
+MergeSort
+Time for Best Case:    0.00000100 secs
+Time for Average Case: 0.00000000 secs
+Time for Worst Case:   0.00000000 secs
+
+
+QuickSort
+Time for Best Case:    0.00957900 secs
+Time for Worst Case:   0.01451200 secs
+Time for Average Case: 0.01196200 secs
+----------------------------------------------------------------
