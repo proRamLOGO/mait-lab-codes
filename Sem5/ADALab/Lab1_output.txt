@@ -1,0 +1,95 @@
+
+n = 1000
+
+1. Insertion Sort
+Time for Best Case:    0.00000500 secs
+Time for Average Case: 0.00073300 secs
+Time for Worst Case:   0.00140100 secs
+
+2. Selection Sort
+Time for Best Case:    0.00118300 secs
+Time for Average Case: 0.00126800 secs
+Time for Worst Case:   0.00126600 secs
+
+3. Bubble Sort
+Time for Best Case:    0.00283800 secs
+Time for Average Case: 0.00590100 secs
+Time for Worst Case:   0.00669900 secs
+
+----------------------------------------------------------------
+
+n = 2000
+
+1. Insertion Sort
+Time for Best Case:    0.00001100 secs
+Time for Average Case: 0.00317700 secs
+Time for Worst Case:   0.00661400 secs
+
+2. Selection Sort
+Time for Best Case:    0.00484000 secs
+Time for Average Case: 0.00484300 secs
+Time for Worst Case:   0.00511300 secs
+
+3. Bubble Sort
+Time for Best Case:    0.01113700 secs
+Time for Average Case: 0.02530200 secs
+Time for Worst Case:   0.03401100 secs
+
+----------------------------------------------------------------
+
+n = 3000
+
+1. Insertion Sort
+Time for Best Case:    0.00001900 secs
+Time for Average Case: 0.00958800 secs
+Time for Worst Case:   0.01734000 secs
+
+2. Selection Sort
+Time for Best Case:    0.01088400 secs
+Time for Average Case: 0.01111500 secs
+Time for Worst Case:   0.01103800 secs
+
+3. Bubble Sort
+Time for Best Case:    0.02499600 secs
+Time for Average Case: 0.04972500 secs
+Time for Worst Case:   0.05383500 secs
+
+----------------------------------------------------------------
+
+n = 4000
+
+1. Insertion Sort
+Time for Best Case:    0.00001700 secs
+Time for Average Case: 0.01199600 secs
+Time for Worst Case:   0.02310900 secs
+
+2. Selection Sort
+Time for Best Case:    0.01894200 secs
+Time for Average Case: 0.01923200 secs
+Time for Worst Case:   0.01946100 secs
+
+3. Bubble Sort
+Time for Best Case:    0.04432700 secs
+Time for Average Case: 0.08929300 secs
+Time for Worst Case:   0.09660200 secs
+
+----------------------------------------------------------------
+
+n = 5000
+
+1. Insertion Sort
+Time for Best Case:    0.00002500 secs
+Time for Average Case: 0.01801000 secs
+Time for Worst Case:   0.03647700 secs
+
+2. Selection Sort
+Time for Best Case:    0.02968500 secs
+Time for Average Case: 0.03036700 secs
+Time for Worst Case:   0.03072700 secs
+
+3. Bubble Sort
+Time for Best Case:    0.07057400 secs
+Time for Average Case: 0.14241100 secs
+Time for Worst Case:   0.15134400 secs
+
+----------------------------------------------------------------
