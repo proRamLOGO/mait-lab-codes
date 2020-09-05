@@ -148,19 +148,19 @@ int main() {
 
         // Best case 
         start = clock() ;
-        radixSort(best,n) ;
+        shellSort(best,n) ;
         end = clock() ;
         printf("Time for Best Case:    %.8f secs\n", (double(end - start)/double(CLOCKS_PER_SEC))) ; 
 
         // averag case 
         start = clock() ;
-        radixSort(average,n) ;
+        shellSort(average,n) ;
         end = clock() ;
         printf("Time for Average Case: %.8f secs\n", (double(end - start)/double(CLOCKS_PER_SEC))) ; 
 
         // worst case 
         start = clock() ;
-        radixSort(worst,n) ;
+        shellSort(worst,n) ;
         end = clock() ;
         printf("Time for Worst Case:   %.8f secs\n", (double(end - start)/double(CLOCKS_PER_SEC))) ; 
 
