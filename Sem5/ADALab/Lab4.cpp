@@ -82,7 +82,7 @@ int jump_search ( int arr[], int key, int n ) {
     int left  = max(0,idx-jump), // since idx-jump might be negative
         right = min(idx,n-1) ; // since i may exceed than n    
     
-    return binary_search(arr,key,left,right) ; // Value NOT FOUND
+    return binary_search(arr,key,left,right) ; 
 
 }
 
@@ -126,11 +126,11 @@ int exponential_search( int arr[], int key, int n ) {
     int left  = factor>>1 , 
         right = min(factor,n-1) ; // since factor may exceed than n    
     
-    return binary_search(arr,key,left,right) ; // Value NOT FOUND
+    return binary_search(arr,key,left,right) ; 
 
 }
 
-int fibonacci_binarySearch( int arr[], int key, int lo, int hi ) {
+int lowerbound( int arr[], int key, int lo, int hi ) {
 
     int ans = -1 ;
 
@@ -172,7 +172,7 @@ int fibonacci_search( int arr[], int key, int n ) {
         if (hi==lo)
             return (arr[lo]==key) ? lo : -1 ; // Last Index Compared
 
-        int m = fibonacci_binarySearch(fib,hi-lo+1,0,hi-lo+1) ; // Always >= 2
+        int m = lowerbound(fib,hi-lo+1,0,hi-lo+1) ; // Always >= 2
         int mid = lo + fib[m-2] ;
 
         if ( arr[mid]==key )
@@ -195,7 +195,7 @@ int main() {
     freopen("Lab4_output.txt","w",stdout);
     #endif
 
-    // Driver program to be written.    
+    // Driver program to be written.
 
     return 0;
 
